@@ -1,3 +1,95 @@
 body {
-	background-color: #7CF981;
+	background-color: #B3B6B7;
+	font-family: 'Lora', serif;
+	color: black;
+}
+
+h2 {
+	font-family: 'Oxygen', sans-serif;
+	font-weight: bold;
+	font-size: 3.0em;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+
+
+}
+
+
+#nav {
+	background-color: #E74C3C;
+	border-radius: 0;
+	border: 0;
+
+
+}
+.navbar-brand {
+	padding-top: 0px;
+	height: 75px;
+}
+
+.navbar-brand h1 {
+	color: yellow;
+	text-transform: uppercase;
+	font-family: 'Lobster', cursive;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+
+#nav-list {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #CA0EAA;
+    font-size: 22px;
+    text-shadow: 1px 1px 1px black;	
+  
+}
+#nav-list a {
+  color: #B3B6B7;
+  text-align: center;
+}
+#nav-list a:hover {
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #E74C3C;	
+  color: black; 	
+  background:  #E74C3C;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 2px solid black;
+
+}
+
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+ 
+}
+
+/*Paragraph styling*/
+
+#content div {
+	background-color: #286DDA;  
+}
+
+#content h3{
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	padding-top: 20px;
+	font-size: 2.5em;
+	
+
+
+
+}
+
+#content p {
+	color: white;
+	padding: 20px;
+	font-size: 1.2em;
+}
+
+
 }
